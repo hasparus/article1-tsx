@@ -14,15 +14,16 @@ export type Character = {
 export const EmptySlot = null;
 type EmptySlot = typeof EmptySlot;
 
-
 export type CharacterSlot = Character | EmptySlot;
 
-interface CharacterSlots<K extends 2 | 3 | 4>
+export type CharacterSlotsSizes = 2 | 3 | 4;
+
+export interface CharacterSlots<K extends CharacterSlotsSizes>
   extends ReadonlyArray<CharacterSlot> {
   length: K;
 }
 
-export type PlayerCharacters =
+export type Characters =
   | CharacterSlots<2>
   | CharacterSlots<3>
   | CharacterSlots<4>;

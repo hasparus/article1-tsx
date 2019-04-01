@@ -1,9 +1,9 @@
-import { PlayerCharacters } from "./character";
+import { Characters } from "./character";
 
 export type Player = {
   displayName: string;
   email: string;
-  characters: PlayerCharacters;
+  characters: Characters;
   dragonCoins: number;
   gold: number;
 };

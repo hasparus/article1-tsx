@@ -1,1 +1,1 @@
-import "./oopplayer";
+import "./oop/player";

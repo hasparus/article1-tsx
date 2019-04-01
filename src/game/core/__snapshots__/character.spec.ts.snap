@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`const _c1: Characters = [EmptySlot] as const (type) should match snapshot: const _c1: Characters = [EmptySlot] as const 1`] = `
+"Type 'readonly [any]' is not assignable to type 'Characters'.
+  Type 'readonly [any]' is not assignable to type 'CharacterSlots<4>'.
+    Types of property 'length' are incompatible.
+      Type '1' is not assignable to type '4'."
+`;
+
+exports[`const _c2: Characters = [EmptySlot, EmptySlot] as const (type) should match snapshot: const _c2: Characters = [EmptySlot, EmptySlot] as const 1`] = `"any"`;
+
+exports[`const _c3: Characters = [EmptySlot, EmptySlot, EmptySlot] as const (type) should match snapshot: const _c3: Characters = [EmptySlot, EmptySlot, EmptySlot] as const 1`] = `"any"`;
+
+exports[`const _c4: Characters = [EmptySlot, EmptySlot, EmptySlot, EmptySlot] as const (type) should match snapshot: const _c4: Characters = [EmptySlot, EmptySlot, EmptySlot, EmptySlot] as const 1`] = `"any"`;
+
+exports[`const _c5: Characters = [
+    EmptySlot,
+    EmptySlot,
+    EmptySlot,
+    EmptySlot,
+    EmptySlot,
+  ] as const (type) should match snapshot: const _c5: Characters = [
+    EmptySlot,
+    EmptySlot,
+    EmptySlot,
+    EmptySlot,
+    EmptySlot,
+  ] as const 1`] = `
+"Type 'readonly [any, any, any, any, any]' is not assignable to type 'Characters'.
+  Type 'readonly [any, any, any, any, any]' is not assignable to type 'CharacterSlots<4>'.
+    Types of property 'length' are incompatible.
+      Type '5' is not assignable to type '4'."
+`;

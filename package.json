@@ -11,6 +11,7 @@
   "dependencies": {
     "@types/react": "16.8.10",
     "dts-jest": "22.0.4",
+    "fp-ts": "^1.15.0",
     "jest": "24.5.0",
     "react": "16.8.6",
     "remeda": "0.0.11",
@@ -18,7 +19,9 @@
   },
   "devDependencies": {
     "@babel/core": "7.4.0",
-    "parcel-bundler": "^1.6.1"
+    "monocle-ts": "^1.7.1",
+    "parcel-bundler": "^1.6.1",
+    "utility-types": "^3.4.1"
   },
   "jest": {
     "moduleFileExtensions": [
@@ -26,9 +29,9 @@
       "js",
       "json"
     ],
-    "testRegex": "/dts-jest/.+\\.spec.ts$",
+    "testRegex": "\\.spec\\.ts$",
     "transform": {
-      "/dts-jest/.+\\.ts$": "dts-jest/transform"
+      "\\.spec\\.ts$": "dts-jest/transform"
     }
   }
 }
