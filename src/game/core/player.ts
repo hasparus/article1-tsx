@@ -1,9 +1,10 @@
 import { Characters } from "./character";
+import { DragonCoins, Gold } from "./money";
 
 export type Player = {
   displayName: string;
   email: string;
   characters: Characters;
-  dragonCoins: number;
-  gold: number;
+  dragonCoins: DragonCoins;
+  gold: Gold;
 };

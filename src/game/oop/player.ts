@@ -3,13 +3,13 @@ import {
   Characters,
   Player as IPlayer,
   EmptySlot,
-  CharacterSlots,
+  DragonCoins,
 } from "../core";
 import { immutable } from "../util";
 
 class Player implements IPlayer {
   characters: Characters = [EmptySlot, EmptySlot] as const;
-  dragonCoins = 0;
+  dragonCoins = DragonCoins(0);
   gold = 0;
 
   constructor(public displayName: string, public email: string) {}
