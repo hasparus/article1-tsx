@@ -11,5 +11,5 @@
     "rootDir": "src",
     "moduleResolution": "node"
   },
-  "exclude": ["**/*.d.spec.ts"]
+  "exclude": ["**/*.d.spec.ts", "src/createElementAndLog"]
 }

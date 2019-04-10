@@ -18,5 +18,5 @@ function addCharacter(
   if (indexOfEmpty === -1) {
     return left(NO_SLOT_FOR_CHAR);
   }
-  return right(immutable.insert(chars, indexOfEmpty, newChar));
+  return right(immutable.update(chars, indexOfEmpty, newChar));
 }
