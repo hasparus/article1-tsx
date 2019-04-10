@@ -1,3 +1,7 @@
+/**
+ * Types here are probably an overkill.
+ */
+
 import { IntToString } from './IntToString';
 
 type Updated<T, I extends string, X> = { 
