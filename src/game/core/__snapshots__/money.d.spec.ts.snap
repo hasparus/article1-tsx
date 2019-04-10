@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`const _d1: DragonCoins = 10 ** 12 (type) should match snapshot: const _d1: DragonCoins = 10 ** 12 1`] = `
+"Type 'number' is not assignable to type 'DragonCoins'.
+  Type 'number' is not assignable to type '{ __type: \\"DragonCoins\\"; }'."
+`;
+
+exports[`const _d2: DragonCoins = DragonCoins(100) (type) should match snapshot: const _d2: DragonCoins = DragonCoins(100) 1`] = `"any"`;
+
+exports[`const _d3 = DragonCoins(100).toFixed(2) (type) should match snapshot: const _d3 = DragonCoins(100).toFixed(2) 1`] = `"any"`;
+
+exports[`const _g1: Gold = 1000 (type) should match snapshot: const _g1: Gold = 1000 1`] = `"any"`;
+
+exports[`const _g2: NotGold = Gold(1000) (type) should match snapshot: const _g2: NotGold = Gold(1000) 1`] = `
+"Type 'Gold' is not assignable to type 'NotGold'.
+  Type 'Gold' is not assignable to type '{ __type?: \\"NotGold\\"; }'.
+    Types of property '__type' are incompatible.
+      Type '\\"Gold\\"' is not assignable to type '\\"NotGold\\"'."
+`;
+
+exports[`const _g3 = Gold(10000).toLocaleString() (type) should match snapshot: const _g3 = Gold(10000).toLocaleString() 1`] = `"any"`;

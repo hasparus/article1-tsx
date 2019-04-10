@@ -7,11 +7,9 @@
     "sourceMap": true,
     "allowJs": true,
     "noEmit": true,
-    "lib": [
-      "es6",
-      "dom"
-    ],
+    "lib": ["es6", "dom"],
     "rootDir": "src",
     "moduleResolution": "node"
-  }
+  },
+  "exclude": ["**/*.d.spec.ts"]
 }
