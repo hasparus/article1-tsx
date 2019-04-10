@@ -13,5 +13,6 @@ describe("immutable.update", () => {
     const actual = update(xs, 1, 20);
 
     expect(actual).not.toBe(xs);
+    expect(xs).toStrictEqual([1, 2, 3]);
   });
 });
