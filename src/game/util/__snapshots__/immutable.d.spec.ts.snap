@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`const _t6: ['a', 'b'] = update(['a', 'b'], one, 'c') (type) should match snapshot: const _t6: ['a', 'b'] = update(['a', 'b'], one, 'c') 1`] = `"Argument of type '\\"c\\"' is not assignable to parameter of type '\\"a\\" | \\"b\\"'."`;

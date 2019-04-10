@@ -14,8 +14,8 @@ export function update<
 >(
   xs: Xs,
   i: I,
-  x: X
-): Updated<Xs, IntToString<I>, X> {
+  x: number extends I ? Xs[number] : X
+): number extends I ? Xs : Updated<Xs, IntToString<I>, X> {
   console.assert(i < xs.length, "i should be less than xs.length");
   return [...xs.slice(0, i), x, ...xs.slice(i + 1)] as any;
 }
